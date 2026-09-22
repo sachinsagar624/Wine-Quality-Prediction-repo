@@ -247,7 +247,7 @@ New Wine Prediction
 
 ## Repository Structure
 
-```text
+text
 Wine-Quality-Prediction-repo/
 │
 ├── README.md
@@ -255,7 +255,7 @@ Wine-Quality-Prediction-repo/
 ├── requirements.txt
 ├── wine_quality_random_forest.pkl
 └── wine_quality_scaler.pkl
-```
+
 
 ---
 
