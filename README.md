@@ -247,7 +247,7 @@ New Wine Prediction
 
 ## Repository Structure
 
-text
+```text
 Wine-Quality-Prediction-repo/
 │
 ├── README.md
@@ -255,7 +255,7 @@ Wine-Quality-Prediction-repo/
 ├── requirements.txt
 ├── wine_quality_random_forest.pkl
 └── wine_quality_scaler.pkl
-
+```
 
 ---
 
@@ -290,6 +290,11 @@ This project demonstrates an end-to-end Machine Learning classification workflow
 The workflow covered data cleaning, exploratory data analysis, preprocessing, model training, model evaluation, feature importance analysis, model saving, and prediction on new data.
 
 Among the evaluated models, the Random Forest classifier achieved the highest test accuracy of approximately **57.33%**.
+
+The analysis also highlighted the impact of class imbalance, particularly for rare wine-quality classes. Feature importance analysis identified **alcohol, density, volatile acidity, total sulfur dioxide, and chlorides** as important features used by the Random Forest model.
+
+Overall, the project provides practical experience in applying Machine Learning classification techniques to a real-world dataset and building a complete reproducible Machine Learning workflow.
+
 
 The analysis also highlighted the impact of class imbalance, particularly for rare wine-quality classes. Feature importance analysis identified **alcohol, density, volatile acidity, total sulfur dioxide, and chlorides** as important features used by the Random Forest model.
 
